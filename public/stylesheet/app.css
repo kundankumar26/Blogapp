@@ -1,0 +1,13 @@
+body{
+    padding: 100px;
+}
+.large{
+    letter-spacing: 2px;
+}
+.glyphicon{
+    letter-spacing: 10px;
+    font-size: x-large;
+}
+.showarea{
+    padding: 10px 0 10px 0;
+}
