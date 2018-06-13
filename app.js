@@ -5,9 +5,9 @@ var express=require("express"),
     methodOverride=require("method-override"),
     expressSanitizer=require("express-sanitizer");
     
-mongoose.connect("mongodb://localhost/blog-app");
+//mongoose.connect("mongodb://localhost/blog-app");
 //mongoose.connect(process.env.DATABASEURL);
-//mongoose.connect("mongodb://kk:kundankumar26@ds159020.mlab.com:59020/blogapp");
+mongoose.connect("mongodb://kk:kundankumar26@ds159020.mlab.com:59020/blogapp");
 app.use(bodyparser.urlencoded({extended: true}));
 app.set("view engine","ejs");
 app.use(express.static("public"));
