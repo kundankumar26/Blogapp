@@ -6,10 +6,10 @@
             <div class="item">
                 <img class="ui centered rounded image showarea" src="<%= blog.image %>">
                 <div class="content showarea">
-                    <span><%= blog.created.toDateString() %></span>
+                    <span class="lead"><%= blog.created.toDateString() %></span>
                 </div>
-                <div class="description showarea">
-                    <p><%- blog.body %></p>
+                <div class="description showarea descrip">
+                    <p><i><%- blog.body %></i></p>
                 </div>
                 
                 <form id="delete" action="/blog/<%=blog._id%>?_method=DELETE" method="POST">

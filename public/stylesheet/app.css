@@ -11,3 +11,9 @@ body{
 .showarea{
     padding: 10px 0 10px 0;
 }
+.descrip{
+    letter-spacing: 1px;
+    padding-top: 5px;
+    font-size: 17px;
+    font-weight: normal;
+}
